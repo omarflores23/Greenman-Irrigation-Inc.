@@ -16,6 +16,20 @@ Use a local browser at `http://localhost:3000` for development. The server liste
 
 For a local production build, run `npm run build` followed by `npm run start`.
 
+## Open the draft in GitHub Codespaces
+
+The complete draft is on branch `greenman-website-draft`. In the terminal of an existing Codespace for this repository, run:
+
+```bash
+git fetch origin
+git switch greenman-website-draft
+bash scripts/codespaces-preview.sh
+```
+
+The script selects Node 24 through the existing nvm installation where available, installs locked dependencies, verifies all 22 supplied images, builds in review mode, and starts port 3000. It also configures the exact Codespaces forwarded form origin. Once the terminal says **Ready**, open **Ports**, keep **3000 Private**, and select **Open in Browser**. Leave the terminal running. No ZIP upload is needed. If switching branches reports existing local changes, preserve them before switching; do not reset or overwrite them.
+
+This uses a production runtime for a private review preview, avoiding forwarded development-resource restrictions. It does not deploy the public domain or approve facts, services, or media for the final website. Online email remains unconfigured. Optional overrides: `GREENMAN_PREVIEW_PORT` and `GREENMAN_NPM_CACHE`.
+
 ## Pages and features
 
 | Area | Routes |

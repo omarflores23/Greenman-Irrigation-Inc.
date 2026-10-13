@@ -1,6 +1,6 @@
 # Deployment guide — owner approval required
 
-The website is implemented for local review. **No deployment, public publication, or DNS change has been performed or authorized.** Prepare a release using this guide, then publish only after the owner's explicit approval.
+The website is implemented for local review. **No public website deployment or DNS change has been performed or authorized. The source draft is shared on a separate GitHub branch for Codespaces review.** Prepare a release using this guide, then publish only after the owner's explicit approval.
 
 ## Approve the release content
 

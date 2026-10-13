@@ -78,3 +78,9 @@ Two browser-discovered issues were fixed: Next development resource access throu
 - The cloud draft saves installation/startup instructions, email variable/secret requirements and required domains. Saving it does not apply bindings or publish anything. Review/save settings and publish the cloud environment snapshot to activate it; website deployment still needs separate explicit approval.
 
 No final claim of live form readiness or public-release readiness is made while these prerequisites are outstanding.
+
+## Direct Codespaces transfer
+
+Following the user’s instruction to make the draft accessible without ZIP downloads, the complete source and assets were pushed to the separate `greenman-website-draft` GitHub branch. `main` remains at its original commit. The remote `package.json` and all 22 WebP files were fetched and verified against local checksums.
+
+The new `scripts/codespaces-preview.sh` starter was exercised in the actual cloud machine with Node 24: frozen install, verification of all 44 originals, review-mode production build, and startup passed. Functional requests to the homepage, Landscaping, Gallery and installation page returned 200; browser checks verified 22 review images, the six-item Landscaping filter, lightbox/Escape and mobile hydration with zero page exceptions. The script sets the Codespaces forwarded form origin when that environment provides its metadata. It is ready for the user to run in their existing Codespace; execution in that separate Codespace has not been claimed. Keep port 3000 Private. No website deployment or real email delivery occurred.

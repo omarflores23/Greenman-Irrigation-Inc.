@@ -1,6 +1,6 @@
 # GreenMan owner review before publication
 
-The website is implemented for private local review. Its source documents include proposed services and provisional business facts; those statements are not independent verification. No deployment, domain change, or public publication is authorized by this implementation task.
+The website is implemented for private local review. Its source documents include proposed services and provisional business facts; those statements are not independent verification. The user-authorized draft source and supplied asset files are available on the public `greenman-website-draft` GitHub branch for direct Codespaces transfer. Website deployment, domain changes, and approval of the final public website remain pending.
 
 ## Information and approvals required
 
@@ -22,7 +22,7 @@ The website is implemented for private local review. Its source documents includ
 | Maintenance plans | Seasonal Essentials and Complete Season Care are editable concepts, not approved offers | Confirm names, exact inclusions/exclusions, scheduling, terms, and any approved pricing. No prices, discounts, or guaranteed inclusions are invented. |
 | Company story and team | No owner names, founding year, fabricated biography, or unapproved team profiles | Provide the approved company history, owner/team names, biographies, and authorized team portraits if desired. |
 | Reviews | No fabricated customers, quotations, ratings, or review dates | Provide genuine reviews, source profile URLs, and permission to display each quotation and attribution. |
-| Original footage images | All 22 are pending permission review | Confirm who owns the supplied footage, permissions from relevant creators, people/property rights where needed, and which exact frames can be published. Preserve original source marks. |
+| Original footage images | All 22 website-publication flags remain pending; source files were shared on the public draft branch following the user’s transfer instruction | Confirm who owns the supplied footage, permissions from relevant creators, people/property rights where needed, and which exact frames can be published. Preserve original source marks. |
 | Project captions | Accurate visible-scene captions from the supplied CSV | Provide confirmed locations, work scope, dates, and project credit only where supported and authorized. Source-video grouping is not a verified project identifier. |
 | Before/after pairs | Supported by code; no active pairs | Supply approved photos showing the same site at established different dates with truthful captions and usage permission before enabling a comparison. |
 | High-resolution originals | Current supplied frames are 512 × 910 portraits | Provide authorized higher-resolution originals, particularly landscape photos for any future wide hero. Current imagery is composed as portrait panels. |
